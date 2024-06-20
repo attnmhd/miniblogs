@@ -39,7 +39,7 @@ export default function Navbars(){
     <div>    
         <Navbar shadow={false} fullWidth className="border-0">
     <div className="flex items-center justify-between ">
-      <a href="/"><img src="/src/assets/logo.png" className=" lg:w-72" /></a>
+      <a href="/"><img src="https://miniblogs-phi.vercel.app/src/assets/logo.png" className=" lg:w-72" /></a>
       <form action="#" method="GET" class="hidden lg:block relative  right-14">
             <label for="topbar-search" class="sr-only">Search</label>
             <div class="relative lg:w-80 pr-5">
