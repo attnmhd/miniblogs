@@ -251,7 +251,7 @@ export function ComplexNavbar(){
           href="/"
           className="mr-4 ml-2 cursor-pointerfont-medium"
         >
-          <img src="../../../public/logo.png" className=" w-36" alt="" />
+          <img src="/logo.png" className=" w-36" alt="" />
         </Typography>
         {/* <div className="hidden lg:block">
           <NavList />
