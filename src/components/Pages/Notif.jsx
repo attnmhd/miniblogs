@@ -66,7 +66,6 @@ export function AlertWithList() {
         <ul className="mt-2 ml-2 list-inside list-disc">
           <li>Untuk masuk kehalaman admin silahkan klik tombol sign in</li>
           <li>Validasi login dan data user masih on progress</li>
-          <li>Maksimal Create Data article dihalaman admin 4 record [ limit dari supabase ]</li>    
         </ul>
       </Alert>
       {/* <Alert variant="ghost" icon={<IconSolid />}>
