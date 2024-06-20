@@ -285,7 +285,7 @@ export function ComplexNavbar(){
       </MobileNav>
     </Navbar>
 
-    <div className="flex flex-wrap">
+    <div className="flex flex-wrap px-6">
         <div className="flex w-1/4">
     <SidebarWithContentSeparator/></div>
     <div className="flex w-3/4 mt-14">
