@@ -15,6 +15,7 @@ import Article from "./components/Pages/Article";
 import { ComplexNavbar } from "./components/Admin/Dashboard";
 import Form from "./components/Admin/Form";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { AlertWithList } from "./components/Pages/Notif";
 
 const router = createBrowserRouter([
   {

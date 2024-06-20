@@ -56,6 +56,7 @@ const  deleteData = async(id)=>{
   .from('article')
   .delete()
   .eq('id',id)
+  alert("Data berhasil dihapus")
   fetchData()
   
 }

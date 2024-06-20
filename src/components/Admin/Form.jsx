@@ -2,7 +2,7 @@ import { useState} from "react"
 import { useParams } from 'react-router-dom';
 import { supabase } from "../Service/Fetch";
 import { useArticle } from "../Service/Article";
-import { Alert } from "@material-tailwind/react";
+import { Button } from "@material-tailwind/react";
 import { useEffect } from "react";
 
 
@@ -34,7 +34,7 @@ export default function Form(){
     await supabase
   .from('article')
   .insert({ title: state.title, description: state.desc })
-  .returns(alert("behasil"))
+  .returns(alert("Data berhasil ditambahkan"))
    }
 
 
@@ -83,7 +83,8 @@ export default function Form(){
 
  
     return(
-        <div className="mx-14 mt-10 border-2 border-blue-400 rounded-lg inset-48 bg-white block ">
+      <>
+        <div className="mx-14 mt-10 border border-blue-500 rounded-lg ">
   <div className="mt-3 pt-4 text-center text-4xl font-bold">{id === "new" ? "Create " : "Update" } Article</div>
     <form onSubmit={handleSubmit} className="p-8">
     <label htmlFor="title" className="flex gap-4">
@@ -99,5 +100,10 @@ export default function Form(){
       </button>
   </form>
 </div>
+<div className=" ml-12 mt-8">
+  <a href="/admin">
+<Button >Back</Button></a>
+</div>
+</>
     )
 }
