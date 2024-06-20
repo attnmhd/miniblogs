@@ -8,7 +8,7 @@ import {
 } from "@material-tailwind/react";
 
 
-import Navbars from "./Navbar";
+import Navbars from "./Navbarr";
 function HeroSection16() {
   
 

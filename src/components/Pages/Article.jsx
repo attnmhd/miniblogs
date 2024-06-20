@@ -3,7 +3,7 @@ import { useArticle } from "../Service/Article"
 import { FooterWithSocialLinks } from "./Footer"
 import { useParams } from 'react-router-dom';
 
-import Navbars from "./Navbar"
+import Navbars from "./Navbarr"
 
 export default function Article(){
 
